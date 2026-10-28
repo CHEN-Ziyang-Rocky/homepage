@@ -28,8 +28,8 @@ The academic transcript is not distributed with this website. Internship achieve
 | Project | Application | Source |
 | --- | --- | --- |
 | Commercial DA | [analytics.imrocky.com](https://analytics.imrocky.com) | [Commercial-DA-Tool](https://github.com/CHEN-Ziyang-Rocky/Commercial-DA-Tool) |
-| E-Commerce Platform | [shop.imrocky.com](https://shop.imrocky.com) | Pending publication |
-| AI Financial Advisor | [finance.imrocky.com](https://finance.imrocky.com) | Pending publication |
+| E-Commerce Platform | [shop.imrocky.com](https://shop.imrocky.com) | [Shopping-Web](https://github.com/CHEN-Ziyang-Rocky/Shopping-Web) |
+| AI Financial Advisor | [finance.imrocky.com](https://finance.imrocky.com) | [ai-finadvisor](https://github.com/CHEN-Ziyang-Rocky/ai-finadvisor) |
 
 ## Hosting
 
