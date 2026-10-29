@@ -16,10 +16,12 @@ Open `http://127.0.0.1:4173`.
 
 ## Files
 
-- `index.html` — responsive page and styles, accessible navigation and reduced-motion support.
+- `index.html` — English profile, internship experience, education, skills, project and contact sections.
+- `styles.css` — responsive styles, larger body text, accessible navigation and reduced-motion support.
 - `assets/rocky-chen.png` — supplied professional portrait.
 - `assets/rocky-chen-resume.pdf` — technical résumé supplied by the author.
 - `assets/favicon.svg` — site icon.
+- `assets/logos/` — institutional marks with official source links in `SOURCES.md`.
 
 The academic transcript is not distributed with this website. Internship achievements are separate from the independent portfolio applications.
 
@@ -34,3 +36,7 @@ The academic transcript is not distributed with this website. Internship achieve
 ## Hosting
 
 Serve this directory as a static site. Existing Nginx infrastructure is managed outside this repository. A GitHub repository stores the source; the three full-stack applications each have their own repository and runtime requirements.
+
+## Content verification
+
+The profile uses the author-supplied CVs and transcript. Both internships are described with plain-language tasks and the reported results. CUHK coursework follows the transcript's eight named modules, including the IoT/edge-computing topic for IEMS5709. The transcript and its personal identifiers are not published.
