@@ -40,3 +40,9 @@ Serve this directory as a static site. Existing Nginx infrastructure is managed 
 ## Content verification
 
 The profile uses the author-supplied CVs and transcript. Both internships are described with plain-language tasks and the reported results. CUHK coursework follows the transcript's eight named modules, including the IoT/edge-computing topic for IEMS5709. The transcript and its personal identifiers are not published.
+
+## One-click portfolio demo (2026-11-02)
+
+The guest demo update is being released. The application entry is `/demo`; no shared credentials are required. Normal login remains available. See [verified local portfolio preview](docs/demo-links-desktop.jpg).
+
+Release completed on 2026-11-03 at https://imrocky.com/. No database reset or Nginx change was performed.
