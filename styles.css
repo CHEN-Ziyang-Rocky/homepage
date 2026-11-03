@@ -131,6 +131,16 @@
   margin: 0 0 8px;
 }
 
+.grade {
+  display: inline-block;
+  background: #eef4e7;
+  border-radius: 5px;
+  padding: 4px 10px;
+  font-size: 15px;
+  color: var(--green);
+  margin: 10px 0 0;
+}
+
 .projects {
   padding-top: 20px;
 }
