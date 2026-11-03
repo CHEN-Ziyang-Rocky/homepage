@@ -10,11 +10,11 @@
   padding: 24px 0;
 }
 .availability{display:flex;gap:9px;align-items:center;font-size:14px;color:var(--muted);margin:0 0 17px}.availability>span{width:7px;height:7px;flex:0 0 7px;background:#578250;border-radius:50%;box-shadow:0 0 0 4px #e7efdf}h1{font-size:39px;line-height:1.2;font-weight:650;letter-spacing:-1.2px;margin:0 0 13px}h1 span{font-weight:450;color:var(--green)}
-.profile-role {
-  font-size: 18px;
+.profile-intro {
+  max-width: 54ch;
+  font-size: 17px;
   line-height: 1.5;
-  font-weight: 600;
-  color: var(--green);
+  color: var(--muted);
   margin: 0;
 }
 
@@ -91,11 +91,24 @@
 }
 .dates{font-size:14px;color:var(--muted);margin:2px 0}
 .work-list {
-  margin: 0;
+  margin: 0 0 12px;
   padding-left: 19px;
   color: var(--muted);
   font-size: 16px;
   line-height: 1.5;
+}
+
+.tech-highlights {
+  margin: 0;
+  padding-top: 9px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.tech-highlights strong {
+  color: var(--green);
 }
 
 .work-list li {
@@ -226,7 +239,7 @@
     padding: 24px 0 16px;
   }
 
-  .profile-role {
+  .profile-intro {
     font-size: 15px;
   }
 
