@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://imrocky.com/assets/rocky-chen.png">
   <title>Ziyang (Rocky) Chen | Software Engineering</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261103-project-previews">
+  <link rel="stylesheet" href="styles.css?v=20261103-card-navigation">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -42,16 +42,13 @@
             <span>01 / Data governance</span>
             <h3><span aria-hidden="true">🏢</span> Commercial DA</h3>
           </div>
-          <a class="project-preview preview-commercial" href="assets/demo-previews/commercial.jpg">
-            <img src="assets/demo-previews/commercial.jpg" alt="Commercial DA evidence review with sample data" width="1254" height="2103" loading="lazy">
-            <span>View screenshot ↗</span>
-          </a>
+          <img class="project-preview" src="assets/demo-previews/commercial.png" alt="Commercial DA management overview and LEI renewal charts" width="1919" height="988" loading="lazy">
           <div class="project-body">
             <p>Explore company hierarchies and review evidence.</p>
             <p class="project-detail">Independent project using public GLEIF data.</p>
             <div class="technology-list"><span>Next.js</span><span>NestJS</span><span>MySQL</span><span>Redis</span></div>
             <div class="project-links">
-              <a class="project-visit" href="https://analytics.imrocky.com/demo">Try Demo ↗</a>
+              <a class="project-visit" href="https://analytics.imrocky.com/demo" aria-label="Try Demo for Commercial DA">Try Demo ↗</a>
               <a href="https://github.com/CHEN-Ziyang-Rocky/Commercial-DA-Tool">Source code ↗</a>
             </div>
           </div>
@@ -61,16 +58,13 @@
             <span>02 / E-commerce</span>
             <h3><span aria-hidden="true">🛍️</span> Shopping platform</h3>
           </div>
-          <a class="project-preview" href="assets/demo-previews/storefront.png">
-            <img src="assets/demo-previews/storefront.png" alt="Rocky.Tech storefront catalog" width="2880" height="1624" loading="lazy">
-            <span>View screenshot ↗</span>
-          </a>
+          <img class="project-preview" src="assets/demo-previews/shop.png" alt="Rocky.Tech storefront catalog" width="1355" height="939" loading="lazy">
           <div class="project-body">
             <p>Browse products, add to your bag and apply vouchers.</p>
             <p class="project-detail">Checkout requires an account and uses Stripe test payments.</p>
             <div class="technology-list"><span>Next.js</span><span>Spring Boot</span><span>Java</span><span>MySQL</span><span>Stripe</span></div>
             <div class="project-links">
-              <a class="project-visit" href="https://shop.imrocky.com/">Visit Store ↗</a>
+              <a class="project-visit" href="https://shop.imrocky.com/" aria-label="Visit Store for Shopping platform">Visit Store ↗</a>
               <a href="https://github.com/CHEN-Ziyang-Rocky/Shopping-Web">Source code ↗</a>
             </div>
           </div>
@@ -80,16 +74,13 @@
             <span>03 / Financial research</span>
             <h3><span aria-hidden="true">📈</span> AI Financial Advisor</h3>
           </div>
-          <a class="project-preview preview-finance" href="assets/demo-previews/finance.jpg">
-            <img src="assets/demo-previews/finance.jpg" alt="AI Financial Advisor Monte Carlo chart with sample data" width="1920" height="992" loading="lazy">
-            <span>View screenshot ↗</span>
-          </a>
+          <img class="project-preview" src="assets/demo-previews/finance.png" alt="AI Financial Advisor research overview and portfolio allocation chart" width="2876" height="1614" loading="lazy">
           <div class="project-body">
             <p>Explore a risk profile, compare allocations and simulate portfolio outcomes.</p>
             <p class="project-detail">Research demo with Monte Carlo simulation.</p>
             <div class="technology-list"><span>React</span><span>Express</span><span>Flask</span><span>scikit-learn</span><span>SciPy</span></div>
             <div class="project-links">
-              <a class="project-visit" href="https://finance.imrocky.com/demo">Try Demo ↗</a>
+              <a class="project-visit" href="https://finance.imrocky.com/demo" aria-label="Try Demo for AI Financial Advisor">Try Demo ↗</a>
               <a href="https://github.com/CHEN-Ziyang-Rocky/ai-finadvisor">Source code ↗</a>
             </div>
           </div>
@@ -102,13 +93,13 @@
       </div>
       <div class="experience-grid">
         <article class="experience-card">
-          <header class="employer">
+          <header class="organization-heading">
+            <span class="organization-logo"><img src="assets/logos/hitachi-rail.svg" alt="" width="172" height="55" loading="lazy"></span>
             <div>
               <h3>Hitachi Rail</h3>
               <p class="job-title">Testing &amp; Commissioning Intern</p>
               <p class="dates">Sep 2025 – May 2026</p>
             </div>
-            <img class="employer-logo" src="assets/logos/hitachi-rail.svg" alt="" width="172" height="55" loading="lazy">
           </header>
           <ul class="work-list">
             <li>Built a Python and Selenium framework to validate <strong>20,000+ I/O signals</strong> for Hong Kong MTR.</li>
@@ -118,13 +109,13 @@
           <p class="tech-highlights"><strong>Tech Highlights:</strong> Python · Selenium · Shadow DOM · Jenkins · Cloud Foundry · Docker · kubectl</p>
         </article>
         <article class="experience-card">
-          <header class="employer">
+          <header class="organization-heading">
+            <span class="organization-logo"><img src="assets/logos/bilibili.svg" alt="" width="145" height="55" loading="lazy"></span>
             <div>
               <h3>Bilibili</h3>
               <p class="job-title">Software Development Project Intern</p>
               <p class="dates">Jun 2025 – Jul 2025</p>
             </div>
-            <img class="employer-logo" src="assets/logos/bilibili.svg" alt="" width="145" height="55" loading="lazy">
           </header>
           <ul class="work-list">
             <li>Built NestJS and MySQL APIs for an internal dashboard covering <strong>three levels of company hierarchy</strong>.</li>
@@ -142,23 +133,35 @@
         </div>
         <div class="education-grid">
           <article class="education-card">
-            <img class="university-logo" src="assets/logos/cuhk.png" alt="" width="262" height="70" loading="lazy">
-            <h3>The Chinese University of Hong Kong</h3>
-            <p class="degree">MSc in Information Engineering</p>
-            <div class="education-meta">
-              <p class="dates">Sep 2025 – Nov 2026</p>
-              <p class="grade">GPA <strong>3.425 / 4.0</strong></p>
-            </div>
+            <header class="organization-heading">
+              <span class="organization-logo university-logo cuhk-logo">
+                <img src="assets/logos/cuhk.png" alt="" loading="lazy">
+              </span>
+              <div>
+                <h3>The Chinese University of Hong Kong</h3>
+                <p class="degree">MSc in Information Engineering</p>
+                <div class="education-meta">
+                  <p class="dates">Sep 2025 – Nov 2026</p>
+                  <p class="grade">GPA <strong>3.425 / 4.0</strong></p>
+                </div>
+              </div>
+            </header>
             <p class="coursework"><strong>Coursework:</strong> LLM Deployment, Distributed Server Architecture, Data Science, Web Security</p>
           </article>
           <article class="education-card">
-            <img class="university-logo" src="assets/logos/polyu.png" alt="" width="262" height="70" loading="lazy">
-            <h3>The Hong Kong Polytechnic University</h3>
-            <p class="degree">BSc (Hons) in Financial Technology &amp; Artificial Intelligence</p>
-            <div class="education-meta">
-              <p class="dates">Sep 2021 – Jun 2025</p>
-              <p class="grade">GPA <strong>3.34 / 4.3</strong></p>
-            </div>
+            <header class="organization-heading">
+              <span class="organization-logo university-logo polyu-logo">
+                <img src="assets/logos/polyu.png" alt="" loading="lazy">
+              </span>
+              <div>
+                <h3>The Hong Kong Polytechnic University</h3>
+                <p class="degree">BSc (Hons) in Financial Technology &amp; Artificial Intelligence</p>
+                <div class="education-meta">
+                  <p class="dates">Sep 2021 – Jun 2025</p>
+                  <p class="grade">GPA <strong>3.34 / 4.3</strong></p>
+                </div>
+              </div>
+            </header>
             <p class="coursework"><strong>Coursework:</strong> Software Engineering, AI &amp; ML, Computer Vision, Data Structures, E-payment &amp; Crypto</p>
           </article>
         </div>
