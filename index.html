@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://imrocky.com/assets/rocky-chen.png">
   <title>Ziyang (Rocky) Chen | Software Engineering</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=20261103-education">
+  <link rel="stylesheet" href="styles.css?v=20261103-cv-layout">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -42,36 +42,42 @@
         <article class="project-card"><div class="project-heading sand"><span>03 / Financial research</span><h3>AI Financial Advisor</h3></div><div class="project-body"><p>Explore a risk profile, compare allocations and simulate portfolio outcomes.</p><p class="project-detail">Research demo with Monte Carlo simulation.</p><div class="technology-list"><span>React</span><span>Express</span><span>Flask</span><span>scikit-learn</span><span>SciPy</span></div><div class="project-links"><a class="project-visit" href="https://finance.imrocky.com/demo">Try Demo ↗</a><a href="https://github.com/CHEN-Ziyang-Rocky/ai-finadvisor">Source code ↗</a></div><details class="project-preview"><summary>Preview a sample screen</summary><a href="assets/demo-previews/finance.jpg"><img src="assets/demo-previews/finance.jpg" alt="Monte Carlo sample chart — actual local sample screen" loading="lazy"></a><small>Actual local screenshot · Sample data · Static preview</small></details></div></article>
       </div>
     </section>
-    <section class="section experience wrap" id="experience" aria-labelledby="experience-title">
+    <section class="section wrap" id="experience" aria-labelledby="experience-title">
       <div class="section-heading">
         <div><p class="section-label">02 / Experience</p><h2 id="experience-title">Internships</h2></div>
       </div>
-      <article class="experience-card">
-        <div class="employer">
-          <div class="employer-logo"><img src="assets/logos/hitachi-rail.svg" alt="" width="172" height="55" loading="lazy"></div>
-          <h3>Hitachi Rail</h3>
-          <p class="job-title">Testing &amp; Commissioning Intern</p>
-          <p class="dates">Sep 2025 – May 2026</p>
-        </div>
-        <ul class="work-list">
-          <li>Helped verify <strong>20,000+ monitoring and control points</strong> for Hong Kong MTR.</li>
-          <li>Automated I/O checks with Python and Selenium, cutting verification from <strong>2–3 months to under 10 days</strong>.</li>
-          <li>Investigated <strong>10+ failures</strong> across services, edge gateways and controllers.</li>
-        </ul>
-      </article>
-      <article class="experience-card">
-        <div class="employer">
-          <div class="employer-logo"><img class="bilibili" src="assets/logos/bilibili.svg" alt="" width="145" height="55" loading="lazy"></div>
-          <h3>Bilibili</h3>
-          <p class="job-title">Software Development Project Intern</p>
-          <p class="dates">Jun 2025 – Jul 2025</p>
-        </div>
-        <ul class="work-list">
-          <li>Built an internal Next.js dashboard to explore <strong>2,000+ company records</strong>.</li>
-          <li>Built NestJS and MySQL APIs for filtering and exploring company hierarchies.</li>
-          <li>Used Redis to cut selected queries from several seconds to <strong>under 100 ms</strong>.</li>
-        </ul>
-      </article>
+      <div class="experience-grid">
+        <article class="experience-card">
+          <header class="employer">
+            <div>
+              <h3>Hitachi Rail</h3>
+              <p class="job-title">Testing &amp; Commissioning Intern</p>
+              <p class="dates">Sep 2025 – May 2026</p>
+            </div>
+            <img class="employer-logo" src="assets/logos/hitachi-rail.svg" alt="" width="172" height="55" loading="lazy">
+          </header>
+          <ul class="work-list">
+            <li>Built a Python and Selenium framework to validate <strong>20,000+ I/O signals</strong> for Hong Kong MTR.</li>
+            <li>Automated tests and screenshot collection, cutting verification from <strong>2–3 months to under 10 days</strong>.</li>
+            <li>Diagnosed <strong>10+ failures</strong> by tracing logs and signals across services, edge gateways and PLCs.</li>
+          </ul>
+        </article>
+        <article class="experience-card">
+          <header class="employer">
+            <div>
+              <h3>Bilibili</h3>
+              <p class="job-title">Software Development Project Intern</p>
+              <p class="dates">Jun 2025 – Jul 2025</p>
+            </div>
+            <img class="employer-logo" src="assets/logos/bilibili.svg" alt="" width="145" height="55" loading="lazy">
+          </header>
+          <ul class="work-list">
+            <li>Built NestJS and MySQL APIs for an internal dashboard covering <strong>three levels of company hierarchy</strong>.</li>
+            <li>Used Redis to cut frequently run complex queries from several seconds to <strong>under 100 ms</strong>.</li>
+            <li>Secured <strong>10+ REST APIs</strong> with JWT, input validation and field masking. Built <strong>five Next.js analytics pages</strong>.</li>
+          </ul>
+        </article>
+      </div>
     </section>
     <section class="education-section" id="education" aria-labelledby="education-title">
       <div class="wrap section">
@@ -83,15 +89,19 @@
             <img class="university-logo" src="assets/logos/cuhk.png" alt="" width="262" height="70" loading="lazy">
             <h3>The Chinese University of Hong Kong</h3>
             <p class="degree">MSc in Information Engineering</p>
-            <p class="dates">Sep 2025 – Nov 2026</p>
-            <p class="grade">GPA <strong>3.425 / 4.0</strong></p>
+            <div class="education-meta">
+              <p class="dates">Sep 2025 – Nov 2026</p>
+              <p class="grade">GPA <strong>3.425 / 4.0</strong></p>
+            </div>
           </article>
           <article class="education-card">
             <img class="university-logo" src="assets/logos/polyu.png" alt="" width="262" height="70" loading="lazy">
             <h3>The Hong Kong Polytechnic University</h3>
             <p class="degree">BSc (Hons) in Financial Technology &amp; Artificial Intelligence</p>
-            <p class="dates">Sep 2021 – Jun 2025</p>
-            <p class="grade">GPA <strong>3.34 / 4.3</strong></p>
+            <div class="education-meta">
+              <p class="dates">Sep 2021 – Jun 2025</p>
+              <p class="grade">GPA <strong>3.34 / 4.3</strong></p>
+            </div>
           </article>
         </div>
       </div>
