@@ -1,6 +1,6 @@
 # Rocky Chen — Personal Portfolio
 
-An English, single-page professional portfolio for Ziyang (Rocky) Chen, based in Hong Kong. Includes selected applications, internship experience, education, technical skills and contact links.
+An English, single-page professional portfolio for Ziyang (Rocky) Chen, based in Hong Kong. Leads with selected applications, followed by internship highlights, education and contact links.
 
 **Website:** [imrocky.com](https://imrocky.com)
 
@@ -16,7 +16,7 @@ Open `http://127.0.0.1:4173`.
 
 ## Files
 
-- `index.html` — English profile, internship experience, education, skills, project and contact sections.
+- `index.html` — English profile, projects, internships, education and contact sections.
 - `styles.css` — responsive styles, larger body text, accessible navigation and reduced-motion support.
 - `assets/rocky-chen.png` — supplied professional portrait.
 - `assets/rocky-chen-resume.pdf` — technical résumé supplied by the author.
@@ -39,6 +39,6 @@ Serve this directory as a static site. Existing Nginx infrastructure is managed 
 
 ## Content verification
 
-The profile uses the author-supplied CVs and transcript. Both internships are described with plain-language tasks and the reported results. CUHK coursework follows the transcript's eight named modules, including the IoT/edge-computing topic for IEMS5709. The transcript and its personal identifiers are not published.
+The profile uses the author-supplied CVs and transcript. Both internships are described with plain-language tasks and the reported results. The transcript and its personal identifiers are not published.
 
 Commercial DA and AI Financial Advisor offer guest demos with sample data. The shopping platform opens its public storefront and asks for an account at checkout. All project cards provide an application link and a source link.
