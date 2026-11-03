@@ -76,8 +76,8 @@
 .organization-logo {
   display: grid;
   place-items: center;
-  width: 76px;
-  height: 54px;
+  width: 94px;
+  height: 68px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
@@ -85,7 +85,7 @@
 
 .organization-logo img {
   width: calc(100% - 12px);
-  height: 40px;
+  height: 52px;
   object-fit: contain;
 }
 
@@ -112,22 +112,32 @@
 }
 
 .tech-highlights,
-.coursework {
+.coursework,
+.academic-awards {
   margin: 0;
-  padding-top: 9px;
-  border-top: 1px solid var(--line);
   color: var(--muted);
   font-size: 14px;
   line-height: 1.5;
 }
 
+.tech-highlights,
+.coursework {
+  padding-top: 9px;
+  border-top: 1px solid var(--line);
+}
+
 .tech-highlights strong,
-.coursework strong {
+.coursework strong,
+.academic-awards strong {
   color: var(--green);
 }
 
 .coursework {
   margin-top: 10px;
+}
+
+.academic-awards {
+  margin-top: 5px;
 }
 
 .work-list li {
@@ -145,26 +155,17 @@
   padding-block: 28px;
 }
 
-.education-card {
-  display: flex;
-  flex-direction: column;
-}
-
-.education-card .organization-heading {
-  flex: 1;
-}
-
 .university-logo img {
   object-fit: cover;
   object-position: left center;
 }
 
 .cuhk-logo img {
-  width: 50px;
+  width: 65px;
 }
 
 .polyu-logo img {
-  width: 43px;
+  width: 55px;
 }
 
 .degree {
@@ -187,6 +188,9 @@
   font-size: 14px;
   color: var(--green);
   margin: 0;
+}
+
+.grade-rank {
   white-space: nowrap;
 }
 
@@ -296,7 +300,8 @@
   }
 
   .organization-logo {
-    width: 64px;
+    width: 74px;
+    height: 60px;
   }
 
   .project-heading h3 {
